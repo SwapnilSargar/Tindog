@@ -1,0 +1,196 @@
+/* body properties */
+body{
+  font-family: "Montserrat";
+}
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* tittle properties*/
+#title{
+  background-color: #FF4C68;
+    color: #fff;
+}
+
+/* tittle image */
+.title-img{
+  width: 20%;
+  transform : rotate(25deg);
+  position: absolute;
+  right: 25%;
+
+}
+
+
+#features{
+  background-color: white;
+  padding: 7% 15% ;
+  position: relative;
+
+}
+
+/*
+h1{
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+
+} */
+
+p{
+  color: grey;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* navigationbar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.23rem;
+}
+
+/* download buttom */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+.icons{
+  height: 50px;
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icons:hover{
+  color: #ff4c68;
+}
+
+
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonial-features */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align:center;
+  background-color:  #ff4c68;
+  color: #ffff;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px ;
+}
+
+
+/* press-edit */
+#press{
+  background-color:  #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+
+/* coursel-settings */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* card-detailing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Footer-detailing */
+#cta{
+  font-family: Montserrat;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 15%;
+
+}
+
+
+.cta-heading{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #ffff;
+  text-align:center;
+  padding: 3% 15%;
+}
+
+.icons-2{
+  padding:20px;
+}
+
+@media (max-width:1028px) {
+
+  #title{
+  text-align: center;
+  }
+
+  .title-img{
+    position:static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
